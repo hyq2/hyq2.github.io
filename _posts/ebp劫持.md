@@ -1,10 +1,9 @@
 ---
-title: 
-tags: 
-renderNumberedHeading: true
-grammar_cjkRuby: true
+layout: post
+title:  "ebp劫持"
+date:   2020-02-23 
+categories: jekyll update
 ---
-
 ### ebp 劫持
 
 #### 一、修改main_ebp -> （实质）间接修改main_return_address
