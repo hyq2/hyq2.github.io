@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ebp劫持"
-date:   2020-02-23 
+date:   2020-02-23 19:31:29 +0900
 categories: jekyll update
 ---
 ### ebp 劫持
