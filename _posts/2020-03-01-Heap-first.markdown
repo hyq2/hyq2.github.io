@@ -78,7 +78,7 @@ x64，64位 :   chunk -- 16字节整数倍
 
 **allocated chunk**
 
-![image-20210301185707290](C:\Users\李小丫\AppData\Roaming\Typora\typora-user-images\image-20210301185707290.png)
+![image-20210301185707290](C:\Users\李小丫\AppData\Roaming\Typora\typora-user-images\image-20210301185707290.png)![enter description here](./images/image-20210301185707290_1.png)
 
 malloc 返回的指针为图中mem指向的地址
 
