@@ -102,7 +102,7 @@ malloc 返回的指针为图中mem指向的地址
 
 **Ptmalloc 一共维护了128（NBINS）个bin，并使用一个数组来存储这些bins（下图）**
 
-![image-20210301145504964](C:\Users\李小丫\AppData\Roaming\Typora\typora-user-images\image-20214131128488.png)
+![image-20210301145504964](C:\Users\李小丫\AppData\Roaming\Typora\typora-user-images\image-20214131128488.png)![enter description here](./images/image-20210301145504964_1.png)
 
 - bin[0] : unsorted bin
 - bin[2] - [63] : small bin ,同一个small bin 链表中的chunk的大小相同，两个相邻索引的small bin 链表中的chunk大小相差 **2个机器字长**；	即32位：8byte ；64位： 16byte。
