@@ -16,7 +16,7 @@ categories: jekyll update
 
 - size < 128KB -> brk -> sys_brk
 
-  无论一开始malloc 多少空间 < 128KB 	kernel 都会给132 KB 的heap segment （rw）这个部分称为 main arena。
+  无论一开始malloc 多少空间 < 128KB 	kernel 都会给132 KB 的heap segment （rw）这个部分称为 main arena。。。。
 
 
 
